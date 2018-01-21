@@ -12,6 +12,10 @@
 		E8B9DC4C2015293300E5305C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B9DC4A2015293300E5305C /* Main.storyboard */; };
 		E8B9DC4E2015293300E5305C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B9DC4D2015293300E5305C /* Assets.xcassets */; };
 		E8B9DC512015293300E5305C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B9DC4F2015293300E5305C /* LaunchScreen.storyboard */; };
+		E8B9DC5920153B3D00E5305C /* firstTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B9DC5820153B3D00E5305C /* firstTabCollectionViewCell.swift */; };
+		E8B9DC5B20153B8200E5305C /* firstTabCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B9DC5A20153B8200E5305C /* firstTabCollectionView.swift */; };
+		E8B9DC5D20153EB300E5305C /* firstTabTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B9DC5C20153EB300E5305C /* firstTabTableView.swift */; };
+		E8B9DC5F20153ECA00E5305C /* firstTabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B9DC5E20153ECA00E5305C /* firstTabTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E8B9DC4D2015293300E5305C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B9DC502015293300E5305C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B9DC522015293300E5305C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B9DC5820153B3D00E5305C /* firstTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTabCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8B9DC5A20153B8200E5305C /* firstTabCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTabCollectionView.swift; sourceTree = "<group>"; };
+		E8B9DC5C20153EB300E5305C /* firstTabTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTabTableView.swift; sourceTree = "<group>"; };
+		E8B9DC5E20153ECA00E5305C /* firstTabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTabTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				E8B9DC462015293300E5305C /* AppDelegate.swift */,
 				E8B9DC482015293300E5305C /* ViewController.swift */,
+				E8B9DC5A20153B8200E5305C /* firstTabCollectionView.swift */,
+				E8B9DC5820153B3D00E5305C /* firstTabCollectionViewCell.swift */,
+				E8B9DC5C20153EB300E5305C /* firstTabTableView.swift */,
+				E8B9DC5E20153ECA00E5305C /* firstTabTableViewCell.swift */,
 				E8B9DC4A2015293300E5305C /* Main.storyboard */,
 				E8B9DC4D2015293300E5305C /* Assets.xcassets */,
 				E8B9DC4F2015293300E5305C /* LaunchScreen.storyboard */,
@@ -136,7 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B9DC5D20153EB300E5305C /* firstTabTableView.swift in Sources */,
 				E8B9DC492015293300E5305C /* ViewController.swift in Sources */,
+				E8B9DC5B20153B8200E5305C /* firstTabCollectionView.swift in Sources */,
+				E8B9DC5920153B3D00E5305C /* firstTabCollectionViewCell.swift in Sources */,
+				E8B9DC5F20153ECA00E5305C /* firstTabTableViewCell.swift in Sources */,
 				E8B9DC472015293300E5305C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,11 +293,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GCPU83AAPV;
 				INFOPLIST_FILE = scrollView_demo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Edwin.scrollView-demo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +309,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GCPU83AAPV;
 				INFOPLIST_FILE = scrollView_demo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Edwin.scrollView-demo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
